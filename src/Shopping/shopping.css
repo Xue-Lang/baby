@@ -1,0 +1,56 @@
+/* .backscreen{
+    width:2000px;
+    height: 1800px;
+    background-color: #DCD9D4; 
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+} */
+.mainpage{
+    width:2000px;
+    height:1000px;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    
+}
+.Buytop{
+    font-size: 15px;
+    font-style: normal;
+    color: red;
+}
+.center{
+    height: 780px;
+    width:1700px;
+    overflow: auto;
+    border: 1px solid #666;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 8px;
+    font-size: 20px;
+
+}
+.goods{
+    margin-top: -25px;
+    margin-left: 300px;
+}
+.product{
+    margin-top: -25px;
+    margin-left: 340px;
+}
+.car{
+ margin-top: 8px;
+}
+.car01{
+    margin-top: 100px;
+}
+.carword{
+    margin-left: 250px;
+    margin-top: -100px;
+}
+.buybotton{
+    font-size: 25px;
+    color: black;
+    margin-left: 10px;
+}
+.paycode01{
+    color: green;
+}
+.paycode02{
+    color: blue;
+}

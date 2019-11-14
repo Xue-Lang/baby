@@ -1,0 +1,19 @@
+.all{
+    width: 800px;
+}
+.content{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.name{
+    font-size: 20px;
+    border-bottom: solid 1px black;
+}
+.reply{
+    color: rgb(68, 66, 66);
+}
+.time{
+    font-size: 12px;
+    margin-left: 130px;
+    margin-top: -20px;
+}

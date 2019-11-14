@@ -1,0 +1,49 @@
+.Slogan1{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 155, 11);
+    float: left;
+    margin-left: 1000px;
+    margin-top:-700px;
+}
+.layout{
+    height: 1000px;
+    font-weight: 100%;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.img2{
+    height: 800px;
+    font-weight: 600px;
+}
+.homgPage{
+    float: left;
+    margin-left: 1400px;
+    margin-top: -800px;
+}
+.information{
+    font-size: 20px;
+    color: rgb(63, 2, 38);
+    float: left;
+    margin-top: -500px;
+    margin-left: 1000px;
+}
+.user{
+    width: 300px;
+    height: 50px;
+    border-radius: 20%;
+}
+.password{
+    width: 300px;
+    height: 50px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+.fButton{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.Jump{
+    margin-left: 1300px;
+    margin-top: -260px;
+}

@@ -1,0 +1,71 @@
+.all{
+    height: 100%;
+}
+.header{
+    height: 50px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    border-bottom: 2px rgb(66, 60, 60) solid;
+}
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.space1{
+    height: 10px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #f5efef 100%);
+}
+.space{
+    height: 80px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #f5efef 100%);
+}
+.input{
+    margin-top: 20px;
+}
+.picture2{
+    height: 60px;
+    width: 90px;
+}
+.space2{
+    height: 580px;
+    background-image: linear-gradient(to top, #e0ecf3 0%, #fff1eb 100%);
+}
+.space3{
+    height: 580px;
+    width: 100%;
+    border: solid 1px #9795f0;
+}
+.title{
+    height: 30px;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    border-bottom: solid 2px #9795f0;
+}
+.content{
+    height: 520px;
+    width: 100%;
+}
+.tail2{
+    height: 30px;
+    background-image: linear-gradient(to top, #abaaf3 0%, #accbee 100%);
+}
+.tail{
+    height: 100px;
+    background-image: linear-gradient(to top, #9795f0 0%, #e0ecf3 100%);
+}
+.box1{
+    height: 380px;
+    width: 100%;
+    border-bottom:solid 1px #9795f0
+}
+.people{
+    margin-top: 10px;
+}
+.kong{
+    height: 30px;
+}
+.reply{
+
+}

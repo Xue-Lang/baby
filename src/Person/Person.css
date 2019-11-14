@@ -1,0 +1,51 @@
+.backgroundphoto{
+    width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+.header{
+    border: 2px solid yellow;
+    width:700px;
+    height: 600px;
+    color: antiquewhite;
+    background-image: url('../Shopping/Buy/31.jpg');
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-55%,10%);
+    
+}
+.top{
+    width:700px;
+    height: 50px;
+    font-size: 30px;
+    font-style: initial;
+}
+.centerbotton{
+    font-size: 25px;
+    font-style: normal;
+    color: azure;
+    margin-top: 65px;
+}
+.center{
+    font-size: 18px;
+    margin-top: 150PX;
+    margin-left: -280px;
+   
+}
+.right{
+    font-size: 20px;
+    font-style: oblique;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.rightperson{
+    font-size: 35px;
+    color: aliceblue;
+    font-style: inherit;
+}
+.botton{
+    color: black;
+    margin-top: 5px;
+}

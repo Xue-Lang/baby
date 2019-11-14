@@ -1,0 +1,70 @@
+.header{
+    height: 150px;
+    width: 100%;
+}
+.first{
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 50px;
+    color: rgb(101, 102, 105);
+}
+.second{
+    margin-top: 1px;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.other{
+    margin-left: 150px;
+    width: 80%;
+    font-size: 20px;
+}
+.homepage{
+    margin-top: 10px;
+    float: left;
+}
+.car{
+    margin-top: 10px;
+    float: right;
+    margin-left: 20px;
+}
+.service{
+    margin-top: 10px;
+    float: right;
+}
+.user{
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+}
+.third{
+    margin-top: 1px;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.input{
+    margin-top: 10px;
+    width: 500px;
+}
+.center{
+    margin: auto;
+    width: 80%;
+    margin-top: 5px;
+    height: 1000px;
+    background-color: antiquewhite;
+}
+.box {
+    margin:auto;
+    justify-content: space-between;
+    display: -webkit-flex;
+    display: flex;
+    width: 80%;
+    height: 250px;
+}
+

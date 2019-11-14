@@ -1,0 +1,99 @@
+.all{
+    height: 100%;
+}
+
+.header{
+    height: 50px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    border-bottom: 2px rgb(66, 60, 60) solid;
+}
+.picture1{
+    height: 40px;
+    width: 60px;
+    margin-top: 5px;
+}
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.text3{
+    margin-top: 15px;
+    color: blue;
+}
+.space{
+    height: 60px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #f5efef 100%);
+}
+.space2{
+    height: 580px;
+    background-image: linear-gradient(to top, #accbee 0%, #fff1eb 100%);
+}
+.space3{
+    height: 580px;
+    width: 100%;
+    border: solid 1px #9795f0;
+}
+.tail{
+    height: 100px;
+    background-image: linear-gradient(to top, #9795f0 0%, #accbee 100%);
+}
+.outer{
+    width: 100%; 
+    height: 500px;
+    background-color: #95f0b3;
+}
+.content{
+    width: 100%; 
+    height: 500px;
+}
+.outer2{
+    width: 100%; 
+    height: 350px;
+    background-color: #95f0b3;
+}
+.content3 {
+    width: 100%; 
+    height: 350px;
+}
+.outer{
+    position: relative;
+    overflow: hidden;
+}
+.inner{
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.content2{
+    height: 1000px;
+}
+.title1{
+    height: 50px;
+    background-color: #c2c1ff;
+    border-bottom:solid 1px #48b3dd;
+    border-right: solid 1px #48b3dd;
+}
+.chat{
+    height: 300;
+    width: 100%;
+    background-color: #c2c1ff;
+    border-left: solid 1px #48b3dd;
+}
+.input{
+    height: 178px;
+    width: 100%;
+    background-color: #c2c1ff;
+    border-top: solid 1px #48b3dd;
+    border-left: solid 1px #48b3dd;
+}
+.space4{
+    height: 15px;
+    width: 100%;
+}
+.back{
+    background-color: #93d3ec;
+}
