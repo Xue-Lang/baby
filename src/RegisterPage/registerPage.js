@@ -18,17 +18,12 @@ export default class RegisterPage extends React.Component {
                             育婴，给孩子一个好的起点
                     </div>
                         <div className={registerPage.text3}>
-                            中国大陆+86：
+                            用户名：
                         <Input size="small" className={registerPage.number}></Input>
                         </div>
                         <div className={registerPage.text4}>
                             设置密码：
                         <Input.Password placeholder="请输入密码" size="small" className={registerPage.Password} />
-                        </div>
-                        <div className={registerPage.text5}>
-                            验证码：
-                        <Input size="small" className={registerPage.vcode}></Input>
-                            <Button type="primary" shape="round" className={registerPage.get}>获取</Button>
                         </div>
                         <div className={registerPage.registe}>
                             <Button type="primary" shape="round" ><Link to="initial">注册</Link></Button>
