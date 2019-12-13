@@ -18,8 +18,8 @@ export default class RegisterPage extends React.Component {
         //XHR
         var xhr = new XMLHttpRequest()
         var date = {
-            "username":this.usernaem,
-            "password":this.password,
+            "username":this.state.username,
+            "password":this.state.password,
         }
         //open连接
         xhr.open("post","/user/register") 
@@ -64,7 +64,7 @@ export default class RegisterPage extends React.Component {
                         </div>
                         <div className={registerPage.text4}>
                             设置密码：
-                        <Input.Password placeholder="请输入密码" size="small" className={registerPage.Password}  type="password" name="password" value={this.state.Password} onChange={e=>this.changeValue(e)}/>
+                        <Input.Password placeholder="请输入密码" size="small" className={registerPage.Password}  type="password" name="password" value={this.state.password} onChange={e=>this.changeValue(e)}></Input.Password>
                         </div>
                         <div className={registerPage.registe}>
                             <Button type="primary" shape="round" onClick={this.upload}>注册</Button>
