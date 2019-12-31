@@ -2,6 +2,7 @@ import React from 'react';
 import img2 from '../imgs/03.gif';
 import { Icon, message, Upload, Row, Col } from 'antd';
 import { Link } from 'react-router-dom'
+import Axios from 'axios';
 
 var PersonCss = require('../Person/Person.css')
 
@@ -71,6 +72,69 @@ class Avatar extends React.Component {
 
 
 export default class Person extends React.Component {
+  constructor(props){
+    super(props);
+    this.state={}
+}
+changeValue=(e)=>{
+    this.setState({
+        [e.target.name]:e.target.value
+    })
+}
+  upload = ()=>{
+    var data={
+        "username":this.state.username,
+            }
+    Axios.post({
+        url:"/user/infousername",
+        data:JSON.stringify(data)
+    }).then(result=>{
+        if(result.state==1){
+            message.info("修改成功")
+        }
+    })
+}
+upload = ()=>{
+  var data={
+      "birth":this.state.birth,
+          }
+  Axios.post({
+      url:"/user/infobirth",
+      data:JSON.stringify(data)
+  }).then(result=>{
+      if(result.state==1){
+          message.info("修改成功")
+      }
+  })
+}
+upload = ()=>{
+  var data={
+      "gender":this.state.gender,
+          }
+  Axios.post({
+      url:"/user/infogender",
+      data:JSON.stringify(data)
+  }).then(result=>{
+      if(result.state==1){
+          message.info("修改成功")
+      }
+  })
+}
+upload = ()=>{
+  var data={
+      "yours":this.state.yours,
+          }
+  Axios.post({
+      url:"/user/infoyours",
+      data:JSON.stringify(data)
+  }).then(result=>{
+      if(result.state==1){
+          message.info("修改成功")
+      }
+  })
+}
+
+
   render() {
     return (
       <div className={PersonCss.backgroundphoto}>
@@ -90,11 +154,11 @@ export default class Person extends React.Component {
             <div className={PersonCss.right}>
               <div className={PersonCss.rightperson}>个人信息<br></br></div>
               头像<Avatar />
-              用户名：<input></input><br></br>
-              个性签名：<input></input><br></br>
-              性别：<input></input><br></br>
-              出生日期：<input></input><br></br>
-              <div className={PersonCss.botton}><button><Link to="/userpage">确认</Link></button><span></span><button>取消</button></div>
+              用户名：<input type="text" name="username" value={this.state.username} onChange={e=>this.changeValue(e)}/><br></br>
+              个性签名：<input type="text" name="yours" value={this.state.yours} onChange={e=>this.changeValue(e)}/><br></br>
+              性别：<input type="text" name="gender" value={this.state.gender} onChange={e=>this.changeValue(e)}/><br></br>
+              出生日期：<input type="text" name="birth" value={this.state.birth} onChange={e=>this.changeValue(e)}/><br></br>
+              <div className={PersonCss.botton}><button>确认</button><span></span><button>取消</button></div>
             </div>
 
           </div></Col>
