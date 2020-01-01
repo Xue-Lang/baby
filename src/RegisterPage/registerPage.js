@@ -35,8 +35,6 @@ export default class RegisterPage extends React.Component {
                         message.info(xhr.responseText)
                        // this.props.history.push("/homepage")
                     }
-                }else{
-                    message.info(xhr.status)
                 }
             }
         }
